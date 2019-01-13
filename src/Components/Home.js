@@ -14,11 +14,6 @@ const newList = [
                   'Crown and Bridgework (One visit crowns available)'
                 ];
 
-  const newListItems = newList.map((list, index) =>
-    <li key={index}>
-      {list}
-    <li>
-  );
 
 class Home extends Component {
   render(){
@@ -58,7 +53,7 @@ class Home extends Component {
 
             <ul>
                 <li>
-                  <newListItems />
+                  <newList />
                 </li>,
             </ul>
 
